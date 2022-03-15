@@ -1726,5 +1726,9 @@
   },
   "printView": {
     "loading": "جاري إنشاء عرض الطباعة ..."
+  },
+    "translate": {
+    "text": "English",
+    "title": "Change Language"
   }
 }
