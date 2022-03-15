@@ -9,6 +9,7 @@ import React from "react";
 import RelatedMaps from "./RelatedMaps";
 import SplitPoint from "terriajs/lib/ReactViews/SplitPoint";
 import StandardUserInterface from "terriajs/lib/ReactViews/StandardUserInterface/StandardUserInterface.jsx";
+import LanguageButton from "./LanguageButton";
 import version from "../../version";
 
 import "./global.scss";
@@ -34,6 +35,7 @@ export default function UserInterface(props) {
       <MenuLeft>
         <MenuItem caption="About" href="about.html" key="about-link" />
         <RelatedMaps viewState={props.viewState} />
+        <LanguageButton viewState={props.viewState} />
       </MenuLeft>
       <ExperimentalMenu>
         {/* <If condition={isBrowserSupportedAV()}>
