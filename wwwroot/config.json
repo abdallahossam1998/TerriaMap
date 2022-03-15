@@ -81,7 +81,8 @@
       "debug": false,
       "languages": {
         "en": "English",
-        "fr": "Français"
+        "fr": "Français",
+        "ar": "Arabic"
       },
       "fallbackLanguage": "en"
     },
