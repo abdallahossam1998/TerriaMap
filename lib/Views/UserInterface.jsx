@@ -13,6 +13,7 @@ import LanguageButton from "./LanguageButton";
 import version from "../../version";
 
 import "./global.scss";
+import "./i18n";
 
 // function loadAugmentedVirtuality(callback) {
 //   require.ensure(
