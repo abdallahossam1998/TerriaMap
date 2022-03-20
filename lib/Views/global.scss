@@ -19,7 +19,7 @@ body {
 
   // Import any custom fonts here
   //@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700);
-
+  /*
   html {
     font-family: $font-base;
   }
@@ -164,51 +164,13 @@ body {
   .tjs-tabs__btn--tab:hover {
     color: $color-secondary;
   }
-  .tjs-full_screen_button__minifiedFullscreenBtnWrapper {
+  */
+  .leaflet-touch .leaflet-control-attribution,
+  .leaflet-touch .leaflet-control-layers,
+  .leaflet-touch .leaflet-bar {
+    box-shadow: none;
     [dir="rtl"] & {
-      right: 348px;
-      left: 0;
-    }
-  }
-
-  .tjs-full_screen_button__minified {
-    [dir="rtl"] & {
-      transform: rotate(180deg);
-      right: 500px;
-    }
-  }
-
-  .tjs-standard-user-interface__showWorkbenchButtonisVisible {
-    [dir="rtl"] & {
-      left: 0;
-      right: 15px;
-    }
-  }
-
-  .tjs-panel__inner-close-btn {
-    left: 5px;
-  }
-
-  .tjs-share-panel__dropdown-inner {
-    [dir="rtl"] & {
-      right: 1000px;
-    }
-  }
-
-  .tjs-mobile-menu__mobile-nav--hidden {
-    [dir="rtl"] & {
-      right: -6000px;
-    }
-  }
-  .tjs-sc-dropdown-inner {
-    [dir="rtl"] & {
-      right: -373px;
-    }
-  }
-
-  .tjs-panel__caret:nth-of-type(2) {
-    [dir="rtl"] & {
-      right: 412.5px;
+      left: 1500px;
     }
   }
 }

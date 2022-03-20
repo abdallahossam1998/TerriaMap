@@ -306,8 +306,8 @@
     }
   },
   "legend": {
-    "lat": "خط العرض",
-    "lon": "خط الطول",
+    "lat": " العرض",
+    "lon": " الطول",
     "zone": "منطقة",
     "e": "E",
     "n": "N",
@@ -443,7 +443,7 @@
       "confirmText": "نعم",
       "denyText": "ربما في وقت لاحق"
     },
-    "showWorkbench": "عرض",
+    "showWorkbench": "عرض طاولة العمل",
     "hideWorkbench": "إخفاء"
   },
   "featureInfo": {
