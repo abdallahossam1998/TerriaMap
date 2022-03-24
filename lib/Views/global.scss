@@ -168,9 +168,25 @@ body {
   .leaflet-touch .leaflet-control-attribution,
   .leaflet-touch .leaflet-control-layers,
   .leaflet-touch .leaflet-bar {
-    box-shadow: none;
     [dir="rtl"] & {
-      left: 1500px;
+      left: 1350px;
+    }
+  }
+
+  .kenOUT {
+    [dir="rtl"] & {
+      right: 320px !important;
+    }
+  }
+  .kHsNGa {
+    [dir="rtl"] & {
+      right: 200px;
+    }
+  }
+  .bjkYji {
+    [dir="rtl"] & {
+      left: 15px !important;
+      right: unset !important;
     }
   }
 }
