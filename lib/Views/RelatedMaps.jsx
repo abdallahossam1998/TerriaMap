@@ -15,129 +15,139 @@ function RelatedMaps(props) {
   return (
     <MenuPanel
       theme={dropdownTheme}
-      btnText="Related Maps"
+      btnText="Related Apps"
       smallScreen={props.smallScreen}
       viewState={props.viewState}
-      btnTitle="See related maps"
+      btnTitle="See related apps"
     >
       <div className={classNames(PanelStyles.header)}>
-        <label className={PanelStyles.heading}>Related Maps</label>
+        <label className={PanelStyles.heading}>Related Apps</label>
       </div>
 
-      <p>Clicking on a map below will open it in a separate window or tab.</p>
-
       <div className={classNames(PanelStyles.section, Styles.section)}>
-        <a target="_blank" href="http://nationalmap.gov.au/renewables/">
+        <a
+          target="_blank"
+          href="https://geoclip-projects.business-geografic.com/demo_ksa/"
+        >
           <img
             className={Styles.image}
-            src={require("../../wwwroot/images/aremi.jpg")}
-            alt="AREMI"
+            src={require("../../wwwroot/images/urban-observatory.png")}
+            alt="URBAN OBSERVATORY"
           />
         </a>
 
         <a
           target="_blank"
           className={Styles.link}
-          href="http://nationalmap.gov.au/renewables/"
+          href="https://geoclip-projects.business-geografic.com/demo_ksa/"
         >
-          AREMI
+          URBAN OBSERVATORY
         </a>
 
         <p>
-          AREMI provides access to Australian spatial data relevant to the
-          Renewable Energy industry, sourced from Government, Industry and
-          Research.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+          numquam quia, deleniti molestias ipsam mollitia dicta, optio saepe
+          quod architecto, cum ipsum quos! Illo quaerat itaque quod ad soluta
+          at.
         </p>
       </div>
 
       <div className={classNames(PanelStyles.section, Styles.section)}>
-        <a target="_blank" href="http://nationalmap.gov.au/northernaustralia/">
+        <a target="_blank" href="https://covid-dashboard.mapsaudi.com/">
           <img
             className={Styles.image}
-            src={require("../../wwwroot/images/northernaustralia.jpg")}
-            alt="Northern Australia"
+            src={require("../../wwwroot/images/app1.png")}
+            alt="COVID-19 STATISTICS DASHBOARD"
           />
         </a>
 
         <a
           target="_blank"
           className={Styles.link}
-          href="http://nationalmap.gov.au/northernaustralia/"
+          href="https://covid-dashboard.mapsaudi.com/"
         >
-          Northern Australia
+          COVID-19 STATISTICS DASHBOARD
         </a>
 
         <p>
-          The Northern Australia NationalMap forms part of the Government's
-          commitment to developing northern Australia by providing easy access
-          to authoritative and other spatial data on northern Australia to
-          governments, business and the public. More information on the
-          Government's White Paper on Developing Northern Australia is available
-          here:{" "}
-          <a
-            target="_blank"
-            className={Styles.link}
-            href="https://northernaustralia.dpmc.gov.au"
-          >
-            https://northernaustralia.dpmc.gov.au
-          </a>
-          .
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+          numquam quia, deleniti molestias ipsam mollitia dicta, optio saepe
+          quod architecto, cum ipsum quos! Illo quaerat itaque quod ad soluta
+          at.
         </p>
       </div>
 
       <div className={classNames(PanelStyles.section, Styles.section)}>
-        <a target="_blank" href="http://neiiviewer.nicta.com.au">
+        <a target="_blank" href="https://mapsaudi.com/saudi-covidtrends/">
           <img
             className={Styles.image}
-            src={require("../../wwwroot/images/neii.jpg")}
-            alt="NEII Viewer"
+            src={require("../../wwwroot/images/app2.png")}
+            alt="COVID-19 TRENDS"
           />
         </a>
 
         <a
           target="_blank"
           className={Styles.link}
-          href="http://www.neii.gov.au/viewer/"
+          href="https://mapsaudi.com/saudi-covidtrends/"
         >
-          NEII Viewer
+          COVID-19 TRENDS
         </a>
 
         <p>
-          The National Environmental Information Infrastructure (NEII) is an
-          information platform designed to improve discovery, access and re-use
-          of nationally significant environmental data. More information on the
-          NEII is available here:{" "}
-          <a
-            target="_blank"
-            className={Styles.link}
-            href="http://neii.gov.au/data-viewer"
-          >
-            neii.gov.au/data-viewer
-          </a>
-          .
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+          numquam quia, deleniti molestias ipsam mollitia dicta, optio saepe
+          quod architecto, cum ipsum quos! Illo quaerat itaque quod ad soluta
+          at. .
         </p>
       </div>
 
       <div className={classNames(PanelStyles.section, Styles.section)}>
-        <a target="_blank" href="http://map.aurin.org.au">
+        <a target="_blank" href="https://kepler-covid.mapsaudi.com/">
           <img
             className={Styles.image}
-            src={require("../../wwwroot/images/aurin-map.jpg")}
-            alt="AURIN Map"
+            src={require("../../wwwroot/images/app3.png")}
+            alt="COVID-19 KEPLER DASHBOARD"
           />
         </a>
 
         <a
           target="_blank"
           className={Styles.link}
-          href="http://map.aurin.org.au"
+          href="https://kepler-covid.mapsaudi.com/"
         >
-          AURIN Map
+          COVID-19 KEPLER DASHBOARD
         </a>
 
         <p>
-          AURIN Map provides access to datasets on urban infrastructure for
-          urban researchers, policy and decision makers.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+          numquam quia, deleniti molestias ipsam mollitia dicta, optio saepe
+          quod architecto, cum ipsum quos! Illo quaerat itaque quod ad soluta
+          at.
+        </p>
+      </div>
+      <div className={classNames(PanelStyles.section, Styles.section)}>
+        <a target="_blank" href="https://mapsaudi.com/dashboards/">
+          <img
+            className={Styles.image}
+            src={require("../../wwwroot/images/app5.png")}
+            alt="DASHBOARDS"
+          />
+        </a>
+
+        <a
+          target="_blank"
+          className={Styles.link}
+          href="https://mapsaudi.com/dashboards/"
+        >
+          DASHBOARDS
+        </a>
+
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+          numquam quia, deleniti molestias ipsam mollitia dicta, optio saepe
+          quod architecto, cum ipsum quos! Illo quaerat itaque quod ad soluta
+          at.
         </p>
       </div>
     </MenuPanel>
